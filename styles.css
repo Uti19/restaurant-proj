@@ -220,7 +220,7 @@ img{
     justify-content: center; 
     
 }
-.options {
+.choices { 
     padding: 0 8px;  
 }
 .menu-list{
@@ -231,11 +231,15 @@ img{
     flex-wrap: wrap; 
     margin: 40px; 
 }
-.menu-type {
+
+button.active {
+    background-color: #ccc; 
+}
+.category {
     min-width: 40%;
     
 }
-.menu-type p{
+.category p{ 
     
 }
 .image {
@@ -248,7 +252,7 @@ img{
     display: flex; 
     flex-direction: column; 
     margin-right: 100px; 
-    min-width: 70%%%;
+    min-width: 70%; 
     
     
 }
