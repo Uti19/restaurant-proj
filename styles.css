@@ -1,26 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 
 
-*{
-    box-sizing: border-box;
-    
-}
-body{
+
+
+*, html, body{
     margin: 0;
     padding: 0; 
+    box-sizing: border-box; 
     
     
 }
 
 .herosection {
-    background-color: red; 
+    background-color: ; 
     
 }
 .navbar{
+    background-color: white; 
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: transparent; 
     color: green;  
 
 }          
@@ -83,7 +82,7 @@ img{
 .slideshow-container{
     /*max-width: 100vh; */ 
    /* position: relative; */
-    background-color: red; 
+    background-color: ; 
     
 }
 
@@ -109,7 +108,7 @@ img{
 }
 
 .dotcontainer {
-    background-color: red; 
+    background-color: ;
     margin: 0; 
     
 }
@@ -184,7 +183,7 @@ img{
 #About {
    /* height: 800px; */ 
    /* display: flex; */ 
-   background-color: red; 
+   background-color: white; 
    margin-top: 0; 
 }
 .Aboutus { 
@@ -220,6 +219,9 @@ img{
 
 
 /* Menu option */
+.menu {
+    background-color: red; 
+}
 .menu-title {
     text-align: center; 
 }
