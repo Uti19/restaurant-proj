@@ -1,12 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+
 *{
     box-sizing: border-box;
+    
 }
 body{
     margin: 0;
-    padding: 0;
-  /*  overflow: hidden; */ 
+    padding: 0; 
+    
+    
 }
 
+.herosection {
+    background-color: red; 
+    
+}
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -73,14 +82,16 @@ img{
 /* Slideshow container */
 .slideshow-container{
     /*max-width: 100vh; */ 
-    position: relative;
-    margin: auto;
+   /* position: relative; */
+    background-color: red; 
+    
 }
 
 /* Caption text */
 .text {
     color: red; 
     font-size: 95px; 
+    font-weight: bolder; 
     padding: 8px 12px;
     position: relative; 
     bottom: 400px; 
@@ -97,14 +108,20 @@ img{
     top: 0;
 }
 
+.dotcontainer {
+    background-color: red; 
+    margin: 0; 
+    
+}
+
 /* dots */
 .dot {
     height: 15px;
     width: 15px;
-    margin: 0 2px;
+   /* margin: 0 2px; */ 
     background-color: #bbb;
     border-radius: 50%;
-    display: inline-block;
+    display: inline-block; 
     transition: background-color 0.6s ease;
 }
 
@@ -165,13 +182,15 @@ img{
 
 /* About section*/
 #About {
-    height: 800px; 
-    background-color: white; 
+   /* height: 800px; */ 
    /* display: flex; */ 
+   background-color: red; 
+   margin-top: 0; 
 }
 .Aboutus { 
    /* text-align: center; */
-    margin-bottom: 35px; 
+   margin-top: 0; 
+    margin-bottom: 50px; 
     text-transform: capitalize; 
 }
 .Aboutus h1{
@@ -187,7 +206,10 @@ img{
 
 }
 .about-text p{
+    font-family: 'Lato', sans-serif; 
     font-weight: 42px; 
+    
+    padding: 10px;
 }
 #aboutimage{ 
     height: 250px; 
@@ -244,8 +266,14 @@ button.active {
 }
    
 @media (max-width: 390px) {
+    body {
+        overflow-x: hidden; 
+    }
     .toggle-button {
         display: flex;    
+    }
+    .toggle-button .bar {
+        background-color: #717171; 
     }
     .navbar-links {
         display: none; 
@@ -254,6 +282,7 @@ button.active {
     .navbar {
         flex-direction: column;
         align-items: flex-start;
+        background-color: ; 
     }
     .navbar-links ul {
         width: 100%;
@@ -273,6 +302,7 @@ button.active {
         bottom: 377px; 
     }
     img {
+        object-fit: cover; 
         
     }
     .about-flex {
