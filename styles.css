@@ -12,7 +12,7 @@
 }
 
 .herosection {
-    background-color: ; 
+    background-color: silver; 
     
 }
 .navbar{
@@ -82,7 +82,7 @@ img{
 .slideshow-container{
     /*max-width: 100vh; */ 
    /* position: relative; */
-    background-color: ; 
+    background-color: silver; 
     
 }
 
@@ -108,7 +108,7 @@ img{
 }
 
 .dotcontainer {
-    background-color: ;
+    background-color: silver;
     margin: 0; 
     
 }
@@ -183,7 +183,7 @@ img{
 #About {
    /* height: 800px; */ 
    /* display: flex; */ 
-   background-color: white; 
+   background-color: silver; 
    margin-top: 0; 
 }
 .Aboutus { 
@@ -269,7 +269,7 @@ button.active {
    
 @media (max-width: 390px) {
     body {
-        overflow-x: hidden; 
+        /overflow-x: hidden; 
     }
     .toggle-button {
         display: flex;    
