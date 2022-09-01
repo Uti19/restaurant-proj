@@ -267,7 +267,7 @@ button.active {
     
 }
    
-@media (max-width: 390px) {
+@media (max-width: 360px) {
     body {
         overflow-x: hidden; 
     }
